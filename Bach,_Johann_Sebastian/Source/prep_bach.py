@@ -1,7 +1,12 @@
+"""
+Prepare the individual Bach chorales from the combined source.
+"""
+
 from music21 import clef, converter, key, metadata, meter, stream
-from music21.corpus.chorales import ChoraleList as ChoraleList
 from pathlib import Path
 from copy import deepcopy
+
+import catalogue_working
 
 THIS_FOLDER = Path(__file__).parent
 
@@ -27,7 +32,7 @@ class SegmentScore:
 
         # Processes
         self.file_name = file_name
-        self.path_to_score = THIS_FOLDER / "Source_and_Correction" / file_name
+        self.path_to_score = THIS_FOLDER / file_name
         self.num_from_title()
         self.score = converter.parse(self.path_to_score)
         self.no_stem_dir()
@@ -135,7 +140,7 @@ class SegmentScore:
                 print(f"{m} in measures {self.missing[m]}")
         print("Extra:")
         for e in self.extra:
-            if self.extra[m]:
+            if self.extra[e]:
                 print(f"{e} in measures {self.extra[e]}")
 
         print(len(self.start_measures), self.num_chorales)
@@ -166,10 +171,6 @@ class SegmentScore:
         self.current_segment = deepcopy(self.score.measures(start, start + 50))
         self.write_segment()
 
-        # should be done now
-        print("self.current_work_number, self.end_chorale",
-              self.current_work_number.
-              self.end_chorale)
         assert (self.current_work_number == self.end_chorale)
 
     def write_segment(self):
@@ -181,9 +182,7 @@ class SegmentScore:
 
         print(f"Processing number {self.current_work_number} ...")
 
-        out_path = THIS_FOLDER / "Chorales" / str(self.current_work_number).zfill(3)
-
-        self.re_number()
+        out_path = THIS_FOLDER.parent / "Chorales" / str(self.current_work_number).zfill(3)
 
         # TODO: Open scoring version *
         # self.current_segment_open = self.current_segment.voicesToParts()
@@ -193,6 +192,9 @@ class SegmentScore:
 
         self.prep_metadata(self.current_segment)  # Metadata not kept in voicesToParts
         # self.prep_metadata(self.current_segment_open)  # .... so runs on each TODO open *
+
+        for p in self.current_segment.parts:
+            re_number(p)
 
         self.current_segment.write(fmt="mxl", fp=out_path / "short_score.mxl")
         # self.current_segment_open.write(fmt="mxl", fp=out_path / "open_score.mxl")  # TODO open *
@@ -222,68 +224,66 @@ class SegmentScore:
 
         self.metadata_errors = []
 
-        title = f"Chorale {self.current_work_number}"
-        try:
-            this_work = ChoraleList().byRiemenschneider[self.current_work_number]
-        except:
-            self.metadata_errors.append(self.current_work_number)
-            this_work = None
-        if this_work:
-            bwv = this_work["bwv"]
-            text = this_work["title"]
-            title += f" (BWV{bwv})\n\"{text}\""
+        catalogue_title = catalogue_working.score_titles[self.current_work_number]
+
+        title = f"Chorale {self.current_work_number}:\n{catalogue_title}"
 
         score.metadata.title = title
 
-    def re_number(self):
-        """
-        Re_number the measures according to standard practice:
-        - (optional) anacrusis = 0
-        - Then 1, 2, 3
-        - Split measures numbered Xa, Xb
-        """
-        measures = self.current_segment.recurse().getElementsByClass(stream.Measure)
 
-        # anacrusis?
-        if measures[0].duration.quarterLength == measures[0].barDuration.quarterLength:
-            count = 1
+def re_number(this_part: stream.Part):
+    """
+    Re_number the measures of a part according to standard practice:
+    - (optional) anacrusis = 0
+    - Then 1, 2, 3
+    - Split measures numbered Xa, Xb
+    """
+    measures = this_part.recurse().getElementsByClass(stream.Measure)
+
+    if measures[0].duration.quarterLength == measures[0].barDuration.quarterLength:
+        count = 1
+    else:
+        count = 0
+
+    measures[0].number = count
+
+    for msr in measures[1:-1]:
+        count += 1
+        # If actual (duration) = nominal (barDuration)
+        if msr.duration == msr.barDuration:
+            # simply, complete measure. Iterate
+            msr.number = count
         else:
-            count = 0
-
-        measures[0].number = count
-
-        for msr in measures[1:-1]:
-            count += 1
-            # If actual (duration) = nominal (barDuration)
-            if msr.duration == msr.barDuration:
-                # simply, complete measure. Iterate
+            if msr.duration.quarterLength + msr.next().duration.quarterLength == \
+                    msr.barDuration.quarterLength:
+                # split measure:
                 msr.number = count
-            else:
-                if msr.duration.quarterLength + msr.next().duration.quarterLength == msr.barDuration.quarterLength:
-                    # split measure:
-                    msr.number = count
-                    msr.numberSuffix = "a"
-                    msr.next().number = count
-                    msr.next().numberSuffix = "b"
-                # else no action - e.g., sees Xb twice and should not re-number
+                msr.numberSuffix = "a"
+                msr.next().number = count
+                msr.next().numberSuffix = "b"
+            # else no action - e.g., sees Xb twice and should not re-number
 
-        # last measure
-        measures[-1].number = count + 1
+    # last measure
+    measures[-1].number = count + 1
 
-    # TODO open *
-    # def check_exactly_2_voices(self):
-    #     """
-    #     In preparation for the open score version, check that there are
-    #     exactly 2 voices in each part / measure.
-    #     """
-    #     msrs = self.score.recurse().getElementsByClass(stream.Measure)
-    #     for m in msrs:
-    #         if len(m.voices) != 2:
-    #             raise ValueError(f"More than 2 voices in {m.measureNumber}")
+# TODO open *
+# def check_exactly_2_voices(self):
+#     """
+#     In preparation for the open score version, check that there are
+#     exactly 2 voices in each part / measure.
+#     """
+#     msrs = self.score.recurse().getElementsByClass(stream.Measure)
+#     for m in msrs:
+#         if len(m.voices) != 2:
+#             raise ValueError(f"More than 2 voices in {m.measureNumber}")
+
+
+def process_corpus():
+    for range_string in ("1-120", "121-240", "241-371",):
+        SegmentScore(file_name=range_string + ".mxl")
 
 
 # ------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    for range_string in ("1-120", "121-240", "241-371",):
-        SegmentScore(file_name=range_string + ".mxl")
+    process_corpus()
