@@ -1296,7 +1296,9 @@ def compare_titles_with_catalogue(titles: List[str],
     errors = 0
 
     for i, title  in enumerate(titles, 1):
-        title = score_titles[i]
+        if title is None:
+            print(i, "None")
+            continue
         catalogue_title = catalogue_convert(str(i), in_cat=in_cat, out_cat=out_cat)
 
         if catalogue_title is None:
