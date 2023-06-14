@@ -1240,6 +1240,11 @@ def flexible_levenshtein_distance(
     if str1 == str2:  # worth checking!
         return 0
 
+    if str1 is None or len(str1) == 0:
+        return len(str2)
+    if str2 is None or len(str2) == 0:
+        return len(str1)
+
     if ignore_characters:
         for c in ignore_characters:
             str1 = str1.replace(c, "")
