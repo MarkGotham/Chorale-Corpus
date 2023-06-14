@@ -12,6 +12,7 @@ stored in the "When in Rome" meta corpus:
 https://github.com/MarkGotham/When-in-Rome/
 
 """
+from typing import List
 
 catalogue = [
     # Chorale text / title", "Zahn", "BWV", "Richter/Kalmus", "CPE", "Riemenschneider"],
@@ -1293,22 +1294,26 @@ def catalogue_convert(
     return ""
 
 
-def compare_score_and_catalogue():
-    """
-    Compare a list of titles on the scores with those in the catalogue
-    with the hypothesis that the catalogue is CPE.
-    """
+
+def compare_titles_with_catalogue(titles: List[str],
+                                  in_cat="Riemenschneider",
+                                  out_cat="title",
+                                  threshold=6
+                                  ):
 
     errors = 0
 
-    for i in range(1, 371 + 1):
-        score_title = score_titles[i]
-        catalogue_title = catalogue_convert(str(i), in_cat="CPE", out_cat="title")
+    for i, title  in enumerate(titles, 1):
+        title = score_titles[i]
+        catalogue_title = catalogue_convert(str(i), in_cat=in_cat, out_cat=out_cat)
 
-        d = flexible_levenshtein_distance(score_title, catalogue_title)
+        if catalogue_title is None:
+            catalogue_title = ""
 
-        if d > 3:
-            print(i, d, score_title, "///", catalogue_title)
+        d = flexible_levenshtein_distance(title, catalogue_title)
+
+        if d > threshold:
+            print(i, d, title, "///", catalogue_title)
             errors += 1
         else:
             print(i)
@@ -1316,6 +1321,19 @@ def compare_score_and_catalogue():
     print(errors)
 
     return errors
+
+
+
+
+def compare_score_and_catalogue():
+    """
+    Compare a list of titles on the scores with those in the catalogue
+    with the hypothesis that the catalogue is CPE.
+    """
+    global score_titles
+    return compare_titles_with_catalogue(score_titles[1:],
+                                         in_cat="CPE",
+                                         threshold=3)
 
 
 def compare_analysis_and_catalogue():
@@ -1323,28 +1341,8 @@ def compare_analysis_and_catalogue():
     Compare a list of titles on the analyses with those in the catalogue
     with the hypothesis that the catalogue is Riemenschneider.
     """
-
-    errors = 0
-
-    for i in range(1, 371 + 1):
-        score_title = score_titles[i]
-        catalogue_title = catalogue_convert(str(i), in_cat="Riemenschneider", out_cat="title")
-
-        if catalogue_title is None:
-            catalogue_title = ""
-
-        d = flexible_levenshtein_distance(score_title, catalogue_title)
-
-        if d > 6:
-            print(i, d, score_title, "///", catalogue_title)
-            errors += 1
-        else:
-            print(i)
-
-    print(errors)
-
-    return errors
-
+    global score_titles
+    return compare_titles_with_catalogue(score_titles[1:])
 
 # ------------------------------------------------------------------------------
 
