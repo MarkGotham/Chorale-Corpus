@@ -12,7 +12,7 @@ stored in the "When in Rome" meta corpus:
 https://github.com/MarkGotham/When-in-Rome/
 
 """
-from typing import List
+from typing import List, Literal
 
 catalogue = [
     # ['Text', 'Tune', 'Zahn', 'BWV', 'CPE', 'Riemenschneider'],
@@ -400,7 +400,6 @@ col_dict = {
 }
 
 score_titles = [
-    None,
     "Aus meines Herzens Grunde",
     "Ich dank' dir, lieber Herre",
     "Ach Gott, vom Himmel sieh' darein",
@@ -1293,29 +1292,30 @@ def catalogue_convert(
 
 
 def compare_titles_with_catalogue(titles: List[str],
-                                  in_cat="Riemenschneider",
-                                  out_cat="tune",
+                                  in_cat: Literal["Riemenschneider", "CPE"] = "Riemenschneider",
                                   threshold=6
                                   ):
-
+    """ Takes a list of titles and compares the element #1 (at index 0) with the value ``out_cat='tune'`` that ``in_cat`` returns for #1.
+    If it goes beyond the ``threshold``, compare it with the value ``out_cat='text'``.
+    """
     errors = 0
 
     for i, title  in enumerate(titles, 1):
         if title is None:
             print(i, "None")
             continue
-        catalogue_title = catalogue_convert(str(i), in_cat=in_cat, out_cat=out_cat)
-
-        if catalogue_title is None:
-            catalogue_title = ""
-
-        d = flexible_levenshtein_distance(title, catalogue_title)
-
-        if d > threshold:
-            print(i, d, title, "///", catalogue_title)
-            errors += 1
+        tune_title = catalogue_convert(i, in_cat=in_cat, out_cat="tune")
+        tune_d = flexible_levenshtein_distance(title, tune_title)
+        if tune_d > threshold:
+            text_title = catalogue_convert(i, in_cat=in_cat, out_cat="text")
+            text_d = flexible_levenshtein_distance(title, text_title)
+            if text_d > threshold:
+                print(f"{i} {title!r} does not match with tune title {tune_title!r} ({tune_d}) nor with text title {text_title!r} ({text_d}).")
+                errors += 1
+            else:
+                print(i, "text")
         else:
-            print(i)
+            print(i, "tune")
 
     print(errors)
 
@@ -1324,24 +1324,22 @@ def compare_titles_with_catalogue(titles: List[str],
 
 
 
-def compare_score_and_catalogue():
+def compare_score_and_catalogue(in_cat: Literal["Riemenschneider", "CPE"] = "Riemenschneider"):
     """
     Compare a list of titles on the scores with those in the catalogue
-    with the hypothesis that the catalogue is CPE.
+    with the hypothesis that the catalogue is Riemenschneider.
     """
     global score_titles
-    return compare_titles_with_catalogue(score_titles[1:],
-                                         in_cat="CPE",
-                                         threshold=3)
+    return compare_titles_with_catalogue(score_titles, in_cat=in_cat)
 
 
-def compare_analysis_and_catalogue():
+def compare_analysis_and_catalogue(in_cat: Literal["Riemenschneider", "CPE"] = "Riemenschneider"):
     """
     Compare a list of titles on the analyses with those in the catalogue
     with the hypothesis that the catalogue is Riemenschneider.
     """
-    global score_titles
-    return compare_titles_with_catalogue(score_titles[1:])
+    global analysis_titles
+    return compare_titles_with_catalogue(analysis_titles, in_cat=in_cat)
 
 # ------------------------------------------------------------------------------
 
