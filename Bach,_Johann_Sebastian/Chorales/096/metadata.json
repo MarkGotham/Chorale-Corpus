@@ -1,0 +1,10 @@
+{
+    "text": "Selig ist die Seele (9)",
+    "tune": "Jesu, meine Freude",
+    "Zahn": "8032",
+    "BWV": "87.7",
+    "CPE": 96,
+    "Riemenschneider": 96,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv87.7.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor096.krn"
+}

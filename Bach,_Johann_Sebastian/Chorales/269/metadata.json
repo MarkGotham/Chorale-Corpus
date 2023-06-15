@@ -1,0 +1,10 @@
+{
+    "text": "Jesu, der du meine Seele",
+    "tune": "Jesu, der du meine Seele",
+    "Zahn": "6804",
+    "BWV": "353",
+    "CPE": 269,
+    "Riemenschneider": 269,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv353.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor269.krn"
+}

@@ -1,0 +1,10 @@
+{
+    "text": "Ich hab mein Sach Gott heimgestellt",
+    "tune": "Ich hab mein Sach Gott heimgestellt",
+    "Zahn": "1678",
+    "BWV": "351",
+    "CPE": 19,
+    "Riemenschneider": 19,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv351.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor019.krn"
+}

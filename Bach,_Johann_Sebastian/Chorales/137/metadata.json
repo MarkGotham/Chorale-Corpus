@@ -1,0 +1,10 @@
+{
+    "text": "Wer Gott vertraut, hat wohl gebaut",
+    "tune": "Wer Gott vertraut, hat wohl gebaut",
+    "Zahn": "8207",
+    "BWV": "433",
+    "CPE": 135,
+    "Riemenschneider": 137,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv433.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor137.krn"
+}

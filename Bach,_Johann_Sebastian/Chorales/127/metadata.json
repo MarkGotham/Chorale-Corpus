@@ -1,0 +1,10 @@
+{
+    "text": "Dies sind die heilgen zehn Gebot",
+    "tune": "In Gottes Namen fahren wir",
+    "Zahn": "1951",
+    "BWV": "298",
+    "CPE": 127,
+    "Riemenschneider": 127,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv298.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor127.krn"
+}

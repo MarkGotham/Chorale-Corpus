@@ -1,0 +1,10 @@
+{
+    "text": "O Welt, sieh hier dein Leben",
+    "tune": "O Welt, ich muss dich lassen",
+    "Zahn": "2293b",
+    "BWV": "393",
+    "CPE": 275,
+    "Riemenschneider": 275,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv393.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor275.krn"
+}

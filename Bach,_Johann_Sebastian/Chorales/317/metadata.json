@@ -1,0 +1,10 @@
+{
+    "text": "Herr, wie du willst, so schicks mit mir (1)",
+    "tune": "Aus tiefer Not schrei ich zu dir (melody #2)",
+    "Zahn": "4438",
+    "BWV": "156.6",
+    "CPE": 316,
+    "Riemenschneider": 317,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv156.6.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor317.krn"
+}

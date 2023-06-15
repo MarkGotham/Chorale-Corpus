@@ -1,0 +1,10 @@
+{
+    "text": "Nun lob, mein Seel, den Herren",
+    "tune": "Nun lob, mein Seel, den Herren",
+    "Zahn": "8244",
+    "BWV": "389",
+    "CPE": 268,
+    "Riemenschneider": 268,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv389.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor268.krn"
+}

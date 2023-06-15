@@ -1,0 +1,10 @@
+{
+    "text": "O Herzensangst, o Bangigkeit",
+    "tune": "O Herzensangst, o Bangigkeit",
+    "Zahn": "1003",
+    "BWV": "400",
+    "CPE": 173,
+    "Riemenschneider": 173,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv400.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor173.krn"
+}

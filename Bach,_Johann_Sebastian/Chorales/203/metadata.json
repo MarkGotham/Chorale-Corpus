@@ -1,0 +1,10 @@
+{
+    "text": "O Mensch, schau Jesum Christum an",
+    "tune": "O Mensch, schau Jesum Christum an",
+    "Zahn": "3994",
+    "BWV": "403",
+    "CPE": 203,
+    "Riemenschneider": 203,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv403.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor203.krn"
+}

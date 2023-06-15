@@ -1,0 +1,10 @@
+{
+    "text": "Herr, ich habe missgehandelt",
+    "tune": "Herr, ich habe missgehandelt",
+    "Zahn": "3695",
+    "BWV": "330",
+    "CPE": 35,
+    "Riemenschneider": 33,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv330.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor033.krn"
+}

@@ -1,0 +1,10 @@
+{
+    "text": "Herr, nun lass in Friede",
+    "tune": "Herr, nun lass in Friede",
+    "Zahn": "3302",
+    "BWV": "337",
+    "CPE": 190,
+    "Riemenschneider": 190,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv337.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor190.krn"
+}

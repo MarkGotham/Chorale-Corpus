@@ -1,0 +1,10 @@
+{
+    "text": "Welt, ade! Ich bin dein m\u00fcde (1)",
+    "tune": "Welt, ade! Ich bin dein m\u00fcde",
+    "Zahn": "6531",
+    "BWV": "27.6",
+    "CPE": 150,
+    "Riemenschneider": 150,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv27.6.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor150.krn"
+}

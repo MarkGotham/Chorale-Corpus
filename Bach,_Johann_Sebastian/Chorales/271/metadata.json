@@ -1,0 +1,10 @@
+{
+    "text": "Gib dich zufrieden und sei stille",
+    "tune": "Gib dich zufrieden und sei stille",
+    "Zahn": "7417a",
+    "BWV": "315",
+    "CPE": 271,
+    "Riemenschneider": 271,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv315.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor271.krn"
+}

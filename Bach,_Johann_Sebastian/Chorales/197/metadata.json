@@ -1,0 +1,10 @@
+{
+    "text": "Christ ist erstanden",
+    "tune": "Christ ist erstanden",
+    "Zahn": "8584",
+    "BWV": "276",
+    "CPE": 197,
+    "Riemenschneider": 197,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv276.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor197.krn"
+}

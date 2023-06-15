@@ -1,0 +1,10 @@
+{
+    "text": "Mit Fried und Freud ich fahr dahin",
+    "tune": "Mit Fried und Freud ich fahr dahin",
+    "Zahn": "3986",
+    "BWV": "382",
+    "CPE": 49,
+    "Riemenschneider": 49,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv382.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor049.krn"
+}

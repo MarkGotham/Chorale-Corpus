@@ -1,0 +1,10 @@
+{
+    "text": "Sollt ich meinem Gott nicht singen",
+    "tune": "Lasset uns den Herren preisen",
+    "Zahn": "7886",
+    "BWV": "413",
+    "CPE": 220,
+    "Riemenschneider": 220,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv413.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor220.krn"
+}

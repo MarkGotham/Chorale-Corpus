@@ -1,0 +1,10 @@
+{
+    "text": "Christ, der du bist der helle Tag",
+    "tune": "Christ, der du bist der helle Tag",
+    "Zahn": "384",
+    "BWV": "273",
+    "CPE": 230,
+    "Riemenschneider": 230,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv273.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor230.krn"
+}

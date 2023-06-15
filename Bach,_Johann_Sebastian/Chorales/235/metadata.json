@@ -1,0 +1,10 @@
+{
+    "text": "Heilig, heilig [German Sanctus]",
+    "tune": "Heilig, heilig",
+    "Zahn": "8633",
+    "BWV": "325",
+    "CPE": 235,
+    "Riemenschneider": 235,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv325.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor235.krn"
+}

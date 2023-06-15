@@ -1,0 +1,10 @@
+{
+    "text": "Aus meines Herzens Grunde",
+    "tune": "Aus meines Herzens Grunde",
+    "Zahn": "5269",
+    "BWV": "269",
+    "CPE": 1,
+    "Riemenschneider": 1,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv269.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor001.krn"
+}

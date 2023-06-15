@@ -1,0 +1,10 @@
+{
+    "text": "Jesu, meine Freude (1,6)",
+    "tune": "Jesu, meine Freude",
+    "Zahn": "8032",
+    "BWV": "227.1 =227.11",
+    "CPE": 263,
+    "Riemenschneider": 263,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv227.1 =227.11.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor263.krn"
+}

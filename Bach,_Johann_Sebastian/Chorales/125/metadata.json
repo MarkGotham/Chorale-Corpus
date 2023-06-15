@@ -1,0 +1,10 @@
+{
+    "text": "Der Herr ist mein getreuer Hirt (1)",
+    "tune": "Allein Gott in der H\u00f6h sei Ehr",
+    "Zahn": "4457",
+    "BWV": "104.6",
+    "CPE": 125,
+    "Riemenschneider": 125,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv104.6.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor125.krn"
+}

@@ -1,0 +1,10 @@
+{
+    "text": "Jesu, meines Herzens Freud",
+    "tune": "Jesu, meines Herzens Freud",
+    "Zahn": "4797, 4798d",
+    "BWV": "361",
+    "CPE": 264,
+    "Riemenschneider": 264,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv361.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor264.krn"
+}

@@ -1,0 +1,10 @@
+{
+    "text": "Du gro\u00dfer Schmerzensmann",
+    "tune": "Du gro\u00dfer Schmerzensmann",
+    "Zahn": "5159",
+    "BWV": "300",
+    "CPE": 164,
+    "Riemenschneider": 167,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv300.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor167.krn"
+}

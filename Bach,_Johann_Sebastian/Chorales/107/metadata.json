@@ -1,0 +1,10 @@
+{
+    "text": "Herzlich lieb hab ich dich, o Herr (3)",
+    "tune": "Herzlich lieb hab ich dich, o Herr",
+    "Zahn": "8326",
+    "BWV": "245.40",
+    "CPE": 107,
+    "Riemenschneider": 107,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.40.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor107.krn"
+}

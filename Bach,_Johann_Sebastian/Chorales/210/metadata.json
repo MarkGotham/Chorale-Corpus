@@ -1,0 +1,10 @@
+{
+    "text": "Christe, du Beistand",
+    "tune": "Christe, du Beistand",
+    "Zahn": "993",
+    "BWV": "275",
+    "CPE": 210,
+    "Riemenschneider": 210,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv275.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor210.krn"
+}

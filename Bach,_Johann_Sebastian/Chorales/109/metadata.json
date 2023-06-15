@@ -1,0 +1,10 @@
+{
+    "text": "Singen wir aus Herzensgrund (4)",
+    "tune": "Da Christus geboren war",
+    "Zahn": "4816",
+    "BWV": "187.7",
+    "CPE": 109,
+    "Riemenschneider": 109,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv187.7.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor109.krn"
+}

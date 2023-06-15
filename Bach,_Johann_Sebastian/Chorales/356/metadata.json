@@ -1,0 +1,10 @@
+{
+    "text": "Jesu, meine Freude",
+    "tune": "Jesu, meine Freude",
+    "Zahn": "8032",
+    "BWV": "358",
+    "CPE": 355,
+    "Riemenschneider": 356,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv358.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor356.krn"
+}

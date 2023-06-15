@@ -1,0 +1,10 @@
+{
+    "text": "Valet will ich dir geben",
+    "tune": "Valet will ich dir geben",
+    "Zahn": "5404a",
+    "BWV": "415",
+    "CPE": 24,
+    "Riemenschneider": 24,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv415.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor024.krn"
+}

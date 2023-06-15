@@ -1,0 +1,10 @@
+{
+    "text": "Jesu, nun sei gepreiset (3)",
+    "tune": "Jesu, nun sei gepreiset",
+    "Zahn": "8477a",
+    "BWV": "41.6",
+    "CPE": 11,
+    "Riemenschneider": 11,
+    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv41.6.mxl",
+    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor011.krn"
+}
