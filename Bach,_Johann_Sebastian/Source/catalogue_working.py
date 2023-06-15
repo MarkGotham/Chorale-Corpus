@@ -12,7 +12,9 @@ stored in the "When in Rome" meta corpus:
 https://github.com/MarkGotham/When-in-Rome/
 
 """
+import json
 from typing import List, Literal
+from pathlib import Path
 
 catalogue = [
     # ['Text', 'Tune', 'Zahn', 'BWV', 'CPE', 'Riemenschneider'],
@@ -1262,7 +1264,7 @@ def flexible_levenshtein_distance(
 
 
 def catalogue_convert(
-        in_entry: str,
+        in_entry: str | int,
         in_cat: str = "Riemenschneider",
         out_cat: str = "text",
 ) -> str:
@@ -1276,19 +1278,20 @@ def catalogue_convert(
     and vice versa:
 
     >>> catalogue_convert("Aus meines Herzens Grunde", in_cat="text", out_cat="Riemenschneider")
-    '1'
-
+    1
     """
 
     in_col = col_dict[in_cat]  # raises error if not there
     out_col = col_dict[out_cat]  # "
+
+    if in_cat in ["CPE", "Riemenschneider"]:
+        in_entry = int(in_entry)
 
     for row in catalogue:
         if row[in_col] == in_entry:
             return row[out_col]
 
     return ""
-
 
 
 def compare_titles_with_catalogue(titles: List[str],
