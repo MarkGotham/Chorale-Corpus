@@ -1344,6 +1344,34 @@ def compare_analysis_and_catalogue(in_cat: Literal["Riemenschneider", "CPE"] = "
     global analysis_titles
     return compare_titles_with_catalogue(analysis_titles, in_cat=in_cat)
 
+
+def create_metadata_files():
+    """
+    Create_metadata json files from the catalogue,
+    and with links to external resources.
+    """
+
+    CHORALE_BASE_DIR = Path(__file__).parent.parent / "Chorales"
+    m21_base = "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/"
+    sapp_base = "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/"
+
+    for item in catalogue:
+
+        this_dict = {}
+
+        for this_string in col_dict.keys():
+            this_dict[this_string] = item[col_dict[this_string]]
+
+        this_dict["music21_score"] = m21_base + f"bwv{this_dict['BWV']}.mxl"
+        this_dict["sapp_score"] = sapp_base + f"chor{str(this_dict['Riemenschneider']).zfill(3)}.krn"
+        # TODO possibly other collections
+
+        out_path = CHORALE_BASE_DIR / str(this_dict["Riemenschneider"]).zfill(3)
+
+        with open(out_path / "metadata.json", "w") as json_file:
+            json.dump(this_dict, json_file, indent=4)
+
+
 # ------------------------------------------------------------------------------
 
 if __name__ == "__main__":
