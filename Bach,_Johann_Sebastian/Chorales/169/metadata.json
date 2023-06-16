@@ -3,8 +3,9 @@
     "tune": "Jesu, der du selbsten wohl",
     "Zahn": "6335",
     "BWV": "355",
+    "music21": "bwv355.mxl",
     "CPE": 169,
     "Riemenschneider": 169,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv355.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor169.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv355.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor169.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Freu dich sehr, o meine Seele",
     "Zahn": "6543",
     "BWV": "32.6",
+    "music21": "bwv32.6.mxl",
     "CPE": 29,
     "Riemenschneider": 29,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv32.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor029.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv32.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor029.krn"
 }

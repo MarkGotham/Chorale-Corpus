@@ -3,8 +3,9 @@
     "tune": "Komm, Heiliger Geist, Herre Gott",
     "Zahn": "7445a",
     "BWV": "226.2",
+    "music21": "bwv226.2.mxl",
     "CPE": 69,
     "Riemenschneider": 69,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv226.2.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor069.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv226.2.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor069.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Wo soll ich fliehen hin",
     "Zahn": "2164",
     "BWV": "5.7",
+    "music21": "bwv5.7.mxl",
     "CPE": 303,
     "Riemenschneider": 304,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv5.7.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor304.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv5.7.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor304.krn"
 }

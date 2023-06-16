@@ -3,8 +3,9 @@
     "tune": "Nun prieset alle Gottes Barmherzigkeit",
     "Zahn": "4089",
     "BWV": "391",
+    "music21": "bwv391.mxl",
     "CPE": 222,
     "Riemenschneider": 222,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv391.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor222.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv391.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor222.krn"
 }

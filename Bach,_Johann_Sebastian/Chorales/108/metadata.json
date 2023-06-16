@@ -3,8 +3,9 @@
     "tune": "Valet will ich dir geben",
     "Zahn": "5404a",
     "BWV": "245.26",
+    "music21": "bwv245.26.mxl",
     "CPE": 108,
     "Riemenschneider": 108,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.26.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor108.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.26.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor108.krn"
 }

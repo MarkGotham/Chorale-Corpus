@@ -3,8 +3,9 @@
     "tune": "Herr Jesu Christ, du hast bereitt",
     "Zahn": "4711",
     "BWV": "333",
+    "music21": "bwv333.mxl",
     "CPE": 226,
     "Riemenschneider": 226,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv333.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor226.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv333.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor226.krn"
 }

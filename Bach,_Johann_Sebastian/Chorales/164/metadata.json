@@ -3,8 +3,9 @@
     "tune": "Herr Gott, dich loben alle wir",
     "Zahn": "368",
     "BWV": "326",
+    "music21": "bwv326.mxl",
     "CPE": 167,
     "Riemenschneider": 164,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv326.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor164.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv326.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor164.krn"
 }

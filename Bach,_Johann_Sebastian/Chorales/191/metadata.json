@@ -3,8 +3,9 @@
     "tune": "Von Gott will ich nicht lassen",
     "Zahn": "5264b",
     "BWV": "73.5",
+    "music21": "bwv73.5.mxl",
     "CPE": 191,
     "Riemenschneider": 191,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv73.5.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor191.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv73.5.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor191.krn"
 }

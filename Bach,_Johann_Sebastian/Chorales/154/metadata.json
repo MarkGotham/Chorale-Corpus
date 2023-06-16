@@ -3,8 +3,9 @@
     "tune": "Der du bist drei in Einigkeit",
     "Zahn": "335",
     "BWV": "293",
+    "music21": "bwv293.mxl",
     "CPE": 154,
     "Riemenschneider": 154,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv293.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor154.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv293.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor154.krn"
 }

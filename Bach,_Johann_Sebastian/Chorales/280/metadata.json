@@ -3,8 +3,9 @@
     "tune": "Eins ist not, ach Herr, dies Eine",
     "Zahn": "7127",
     "BWV": "304",
+    "music21": "bwv304.mxl",
     "CPE": 280,
     "Riemenschneider": 280,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv304.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor280.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv304.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor280.krn"
 }

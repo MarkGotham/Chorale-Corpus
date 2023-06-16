@@ -3,8 +3,9 @@
     "tune": "Wie sch\u00f6n leuchtet der Morgenstern",
     "Zahn": "8359",
     "BWV": "436",
+    "music21": "bwv436.mxl",
     "CPE": 278,
     "Riemenschneider": 278,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv436.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor278.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv436.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor278.krn"
 }

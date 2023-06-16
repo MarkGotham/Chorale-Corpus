@@ -3,8 +3,9 @@
     "tune": "Gott des Himmels und der Erden",
     "Zahn": "3614",
     "BWV": "248.53",
+    "music21": "bwv248.53-5.mxl",
     "CPE": 34,
     "Riemenschneider": 35,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.53.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor035.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.53-5.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor035.krn"
 }

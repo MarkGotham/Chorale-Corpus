@@ -3,8 +3,9 @@
     "tune": "Liebster Gott, wenn werd ich sterben",
     "Zahn": "6634",
     "BWV": "8.6",
+    "music21": "bwv8.6.mxl",
     "CPE": 43,
     "Riemenschneider": 43,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv8.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor043.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv8.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor043.krn"
 }

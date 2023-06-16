@@ -3,8 +3,9 @@
     "tune": "Wenn einer schon ein Haus aufbaut",
     "Zahn": "2570",
     "BWV": "127.5",
+    "music21": "bwv127.5.mxl",
     "CPE": 283,
     "Riemenschneider": 284,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv127.5.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor284.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv127.5.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor284.krn"
 }

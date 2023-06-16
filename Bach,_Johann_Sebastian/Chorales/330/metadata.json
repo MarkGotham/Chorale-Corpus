@@ -3,8 +3,9 @@
     "tune": "Nun danket alle Gott",
     "Zahn": "5142",
     "BWV": "252",
+    "music21": "bwv252.mxl",
     "CPE": 329,
     "Riemenschneider": 330,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv252.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor330.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv252.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor330.krn"
 }

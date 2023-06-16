@@ -3,8 +3,9 @@
     "tune": "O wie selig seid ihr doch, ihr Frommen",
     "Zahn": "1583",
     "BWV": "405",
+    "music21": "bwv405.mxl",
     "CPE": 213,
     "Riemenschneider": 213,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv405.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor213.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv405.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor213.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Christ lag in Todesbanden",
     "Zahn": "7012a",
     "BWV": "4.8",
+    "music21": "bwv4.8.mxl",
     "CPE": 184,
     "Riemenschneider": 184,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv4.8.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor184.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv4.8.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor184.krn"
 }

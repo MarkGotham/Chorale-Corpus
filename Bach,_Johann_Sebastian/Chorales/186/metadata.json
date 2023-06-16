@@ -3,8 +3,9 @@
     "tune": "Ach Gott, erh\u00f6r mein Seufzen und Wehklagen",
     "Zahn": "1831a",
     "BWV": "254",
+    "music21": "bwv254.mxl",
     "CPE": 186,
     "Riemenschneider": 186,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv254.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor186.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv254.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor186.krn"
 }

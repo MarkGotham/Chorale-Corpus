@@ -3,8 +3,9 @@
     "tune": "Nun komm, der Heiden Heiland",
     "Zahn": "1174",
     "BWV": "36.8",
+    "music21": "bwv36.8-2.mxl",
     "CPE": 28,
     "Riemenschneider": 28,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv36.8.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor028.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv36.8-2.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor028.krn"
 }

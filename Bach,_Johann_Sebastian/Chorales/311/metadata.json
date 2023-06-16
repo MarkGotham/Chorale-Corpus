@@ -3,8 +3,9 @@
     "tune": "Jesus Christ, unser Herre",
     "Zahn": "5391",
     "BWV": "287",
+    "music21": "bwv287.mxl",
     "CPE": 310,
     "Riemenschneider": 311,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv287.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor311.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv287.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor311.krn"
 }

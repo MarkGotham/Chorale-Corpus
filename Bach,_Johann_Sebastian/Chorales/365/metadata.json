@@ -3,8 +3,9 @@
     "tune": "Werde munter mein Gem\u00fcte",
     "Zahn": "6551",
     "BWV": "359",
+    "music21": "bwv359.mxl",
     "CPE": 364,
     "Riemenschneider": 365,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv359.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor365.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv359.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor365.krn"
 }

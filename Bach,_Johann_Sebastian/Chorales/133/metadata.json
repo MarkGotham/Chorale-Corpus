@@ -3,8 +3,9 @@
     "tune": "Wir glauben all an einen Gott",
     "Zahn": "7971",
     "BWV": "437",
+    "music21": "bwv437.mxl",
     "CPE": 133,
     "Riemenschneider": 133,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv437.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor133.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv437.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor133.krn"
 }

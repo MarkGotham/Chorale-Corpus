@@ -3,8 +3,9 @@
     "tune": "Ach Herre Gott, mich treibt die Not",
     "Zahn": "247",
     "BWV": "349",
+    "music21": "bwv349.mxl",
     "CPE": 188,
     "Riemenschneider": 188,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv349.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor188.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv349.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor188.krn"
 }

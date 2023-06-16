@@ -3,8 +3,9 @@
     "tune": "Lass, o Herr, dein Ohr sich neigen",
     "Zahn": "6863",
     "BWV": "372",
+    "music21": "bwv372.mxl",
     "CPE": 218,
     "Riemenschneider": 218,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv372.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor218.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv372.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor218.krn"
 }

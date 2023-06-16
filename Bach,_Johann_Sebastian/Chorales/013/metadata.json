@@ -3,8 +3,9 @@
     "tune": "Allein zu dir, Herr Jesu Christ",
     "Zahn": "7292b",
     "BWV": "33.6",
+    "music21": "bwv33.6.mxl",
     "CPE": 13,
     "Riemenschneider": 13,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv33.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor013.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv33.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor013.krn"
 }

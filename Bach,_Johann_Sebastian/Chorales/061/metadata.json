@@ -3,8 +3,9 @@
     "tune": "Jesu Kreuz, Leiden und Pein",
     "Zahn": "6288b",
     "BWV": "159.5",
+    "music21": "bwv159.5.mxl",
     "CPE": 59,
     "Riemenschneider": 61,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv159.5.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor061.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv159.5.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor061.krn"
 }

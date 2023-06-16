@@ -2,9 +2,10 @@
     "text": "Durch Adams Fall ist ganz verderbt (8)",
     "tune": "Durch Adams Fall ist ganz verderbt",
     "Zahn": "7549",
-    "BWV": "(18.5)",
+    "BWV": "18.5",
+    "music21": "bwv18.5-lz.mxl",
     "CPE": 126,
     "Riemenschneider": 126,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv(18.5).mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor126.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv18.5-lz.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor126.krn"
 }

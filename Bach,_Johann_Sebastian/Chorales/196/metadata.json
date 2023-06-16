@@ -3,8 +3,9 @@
     "tune": "Da der Herr Christ zu Tische sa\u00df",
     "Zahn": "1560",
     "BWV": "285",
+    "music21": "bwv285.mxl",
     "CPE": 196,
     "Riemenschneider": 196,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv285.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor196.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv285.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor196.krn"
 }

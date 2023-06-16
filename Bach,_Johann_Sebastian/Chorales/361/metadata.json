@@ -2,9 +2,10 @@
     "text": "Ermuntre dich, mein schwacher Geist (9)",
     "tune": "Ermuntre dich, mein schwacher Geist",
     "Zahn": "5741",
-    "BWV": "(248.12)",
+    "BWV": "248.12",
+    "music21": "bwv248.12-2.mxl",
     "CPE": 360,
     "Riemenschneider": 361,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv(248.12).mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor361.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.12-2.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor361.krn"
 }

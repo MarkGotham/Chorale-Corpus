@@ -3,8 +3,9 @@
     "tune": "Machs mit mir, Gott, nach deiner G\u00fct",
     "Zahn": "2383",
     "BWV": "245.22",
+    "music21": "bwv245.22.mxl",
     "CPE": 309,
     "Riemenschneider": 310,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.22.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor310.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.22.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor310.krn"
 }

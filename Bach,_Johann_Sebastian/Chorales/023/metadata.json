@@ -3,8 +3,9 @@
     "tune": "Helft mir Gotts G\u00fcte preisen",
     "Zahn": "5267",
     "BWV": "28.6",
+    "music21": "bwv28.6.mxl",
     "CPE": 23,
     "Riemenschneider": 23,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv28.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor023.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv28.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor023.krn"
 }

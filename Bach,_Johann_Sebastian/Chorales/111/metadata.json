@@ -3,8 +3,9 @@
     "tune": "Herzliebster Jesu, was hast du verbrochen",
     "Zahn": "983",
     "BWV": "245.17",
+    "music21": "bwv245.17.mxl",
     "CPE": 111,
     "Riemenschneider": 111,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.17.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor111.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv245.17.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor111.krn"
 }

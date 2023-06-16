@@ -3,8 +3,9 @@
     "tune": "In dulci jubilo",
     "Zahn": "4947",
     "BWV": "368",
+    "music21": "bwv368.mxl",
     "CPE": 143,
     "Riemenschneider": 143,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv368.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor143.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv368.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor143.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Herr Gott, dich loben wir [The German Te Deum] [German Te Deum]",
     "Zahn": "8652",
     "BWV": "328",
+    "music21": "bwv328.mxl",
     "CPE": 205,
     "Riemenschneider": 205,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv328.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor205.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv328.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor205.krn"
 }

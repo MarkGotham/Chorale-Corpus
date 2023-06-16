@@ -3,8 +3,9 @@
     "tune": "Warum sollt ich mich denn gr\u00e4men",
     "Zahn": "6461",
     "BWV": "248.33",
+    "music21": "bwv248.33-3.mxl",
     "CPE": 139,
     "Riemenschneider": 139,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.33.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor139.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.33-3.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor139.krn"
 }

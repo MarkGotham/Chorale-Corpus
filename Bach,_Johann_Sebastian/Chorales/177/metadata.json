@@ -3,8 +3,9 @@
     "tune": "Danket dem Herrn, heut und allzeit",
     "Zahn": "439",
     "BWV": "253",
+    "music21": "bwv253.mxl",
     "CPE": 177,
     "Riemenschneider": 177,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv253.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor177.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv253.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor177.krn"
 }

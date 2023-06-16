@@ -3,8 +3,9 @@
     "tune": "Was Gott tut, das ist wohlgetan",
     "Zahn": "5629",
     "BWV": "69a.6",
+    "music21": "bwv69.6-a.mxl",
     "CPE": 292,
     "Riemenschneider": 293,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv69a.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor293.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv69.6-a.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor293.krn"
 }

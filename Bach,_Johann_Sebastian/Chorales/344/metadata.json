@@ -3,8 +3,9 @@
     "tune": "Vom Himmel hoch, da komm ich her",
     "Zahn": "346",
     "BWV": "248.23",
+    "music21": "bwv248.23-s.mxl",
     "CPE": 343,
     "Riemenschneider": 344,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.23.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor344.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.23-s.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor344.krn"
 }

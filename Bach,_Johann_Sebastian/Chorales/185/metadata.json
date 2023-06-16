@@ -3,8 +3,9 @@
     "tune": "Ihr lieben Christen, freut euch nun",
     "Zahn": "364",
     "BWV": "387",
+    "music21": "bwv387.mxl",
     "CPE": 185,
     "Riemenschneider": 185,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv387.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor185.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv387.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor185.krn"
 }

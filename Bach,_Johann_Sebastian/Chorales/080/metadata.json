@@ -3,8 +3,9 @@
     "tune": "Befiehl du deine Wege (melody #1)",
     "Zahn": "5385a",
     "BWV": "244.44",
+    "music21": "bwv244.44.mxl",
     "CPE": 87,
     "Riemenschneider": 80,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv244.44.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor080.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv244.44.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor080.krn"
 }

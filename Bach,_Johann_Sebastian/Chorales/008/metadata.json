@@ -3,8 +3,9 @@
     "tune": "Freuet euch, ihr Christian alle",
     "Zahn": "7880a",
     "BWV": "40.8",
+    "music21": "bwv40.8.mxl",
     "CPE": 8,
     "Riemenschneider": 8,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv40.8.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor008.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv40.8.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor008.krn"
 }

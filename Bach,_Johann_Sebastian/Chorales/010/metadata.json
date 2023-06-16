@@ -3,8 +3,9 @@
     "tune": "Aus tiefer Not schrei ich zu dir (melody #1)",
     "Zahn": "4437",
     "BWV": "38.6",
+    "music21": "bwv38.6.mxl",
     "CPE": 10,
     "Riemenschneider": 10,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv38.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor010.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv38.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor010.krn"
 }

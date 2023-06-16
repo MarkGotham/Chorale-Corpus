@@ -3,8 +3,9 @@
     "tune": "Wo Gott der Herr nicht bei uns h\u00e4lt",
     "Zahn": "4441a",
     "BWV": "256",
+    "music21": "bwv256.mxl",
     "CPE": 31,
     "Riemenschneider": 31,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv256.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor031.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv256.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor031.krn"
 }

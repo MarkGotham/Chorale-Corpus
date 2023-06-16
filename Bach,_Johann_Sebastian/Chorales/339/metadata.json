@@ -3,8 +3,9 @@
     "tune": "Wer nur den lieben Gott l\u00e4sst walten",
     "Zahn": "2778",
     "BWV": "179.6",
+    "music21": "bwv179.6.mxl",
     "CPE": 338,
     "Riemenschneider": 339,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv179.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor339.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv179.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor339.krn"
 }

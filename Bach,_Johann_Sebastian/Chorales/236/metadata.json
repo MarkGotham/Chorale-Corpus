@@ -3,8 +3,9 @@
     "tune": "Herr Jesu Christ, meins Lebens Licht (melody #1)",
     "Zahn": "314",
     "BWV": "335",
+    "music21": "bwv335.mxl",
     "CPE": 236,
     "Riemenschneider": 236,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv335.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor236.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv335.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor236.krn"
 }

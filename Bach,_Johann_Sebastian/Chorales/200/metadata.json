@@ -3,8 +3,9 @@
     "tune": "Christus ist erstanden, hat \u00fcberwunden",
     "Zahn": "6240c",
     "BWV": "284",
+    "music21": "bwv284.mxl",
     "CPE": 200,
     "Riemenschneider": 200,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv284.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor200.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv284.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor200.krn"
 }

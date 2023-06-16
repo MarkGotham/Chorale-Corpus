@@ -3,8 +3,9 @@
     "tune": "Alle Menschen m\u00fcssen sterben",
     "Zahn": "6778",
     "BWV": "262",
+    "music21": "bwv262.mxl",
     "CPE": 153,
     "Riemenschneider": 153,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv262.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor153.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv262.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor153.krn"
 }

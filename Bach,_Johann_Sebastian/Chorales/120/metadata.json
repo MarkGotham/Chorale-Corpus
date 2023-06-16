@@ -3,8 +3,9 @@
     "tune": "Was mein Gott will, das gscheh allzeit",
     "Zahn": "7568",
     "BWV": "103.6",
+    "music21": "bwv103.6.mxl",
     "CPE": 120,
     "Riemenschneider": 120,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv103.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor120.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv103.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor120.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Jesu, Jesu, du bist mein",
     "Zahn": "6446",
     "BWV": "357",
+    "music21": "bwv357.mxl",
     "CPE": 244,
     "Riemenschneider": 244,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv357.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor244.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv357.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor244.krn"
 }

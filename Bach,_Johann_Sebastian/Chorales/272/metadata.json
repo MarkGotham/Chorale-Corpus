@@ -3,8 +3,9 @@
     "tune": "Ich dank dir, lieber Herre",
     "Zahn": "5354b",
     "BWV": "348",
+    "music21": "bwv348.mxl",
     "CPE": 272,
     "Riemenschneider": 272,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv348.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor272.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv348.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor272.krn"
 }

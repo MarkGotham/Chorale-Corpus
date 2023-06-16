@@ -3,8 +3,9 @@
     "tune": "Es ist das Heil uns kommen her",
     "Zahn": "4430",
     "BWV": "9.7",
+    "music21": "bwv9.7.mxl",
     "CPE": 289,
     "Riemenschneider": 290,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv9.7.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor290.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv9.7.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor290.krn"
 }

@@ -2,9 +2,10 @@
     "text": "Verleih uns Frieden gn\u00e4diglich",
     "tune": "Verleih uns Frieden gn\u00e4diglich",
     "Zahn": "1945",
-    "BWV": "(42.7)",
+    "BWV": "42.7",
+    "music21": "bwv42.7.mxl",
     "CPE": 259,
     "Riemenschneider": 259,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv(42.7).mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor259.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv42.7.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor259.krn"
 }

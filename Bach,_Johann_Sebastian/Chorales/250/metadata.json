@@ -3,8 +3,9 @@
     "tune": "Ein feste Burg ist unser Gott",
     "Zahn": "7377",
     "BWV": "303",
+    "music21": "bwv303.mxl",
     "CPE": 250,
     "Riemenschneider": 250,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv303.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor250.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv303.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor250.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "Schm\u00fccke dich, o liebe Seele",
     "Zahn": "6923",
     "BWV": "180.7",
+    "music21": "bwv180.7.mxl",
     "CPE": 22,
     "Riemenschneider": 22,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv180.7.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor022.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv180.7.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor022.krn"
 }

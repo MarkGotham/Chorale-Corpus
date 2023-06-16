@@ -3,8 +3,9 @@
     "tune": "Nun sich der Tag geendet hat",
     "Zahn": "212",
     "BWV": "396",
+    "music21": "bwv396.mxl",
     "CPE": 240,
     "Riemenschneider": 240,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv396.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor240.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv396.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor240.krn"
 }

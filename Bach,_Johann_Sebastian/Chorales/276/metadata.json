@@ -3,8 +3,9 @@
     "tune": "Kommt her, ihr lieben Schwesterlein",
     "Zahn": "198",
     "BWV": "375",
+    "music21": "bwv375.mxl",
     "CPE": 276,
     "Riemenschneider": 276,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv375.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor276.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv375.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor276.krn"
 }

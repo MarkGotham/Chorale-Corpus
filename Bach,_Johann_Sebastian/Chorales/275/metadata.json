@@ -3,8 +3,9 @@
     "tune": "O Welt, ich muss dich lassen",
     "Zahn": "2293b",
     "BWV": "393",
+    "music21": "bwv393.mxl",
     "CPE": 275,
     "Riemenschneider": 275,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv393.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor275.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv393.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor275.krn"
 }

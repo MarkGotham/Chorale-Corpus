@@ -3,8 +3,9 @@
     "tune": "Jesu, der du meine Seele",
     "Zahn": "6804",
     "BWV": "354",
+    "music21": "bwv354.mxl",
     "CPE": 368,
     "Riemenschneider": 369,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv354.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor369.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv354.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor369.krn"
 }

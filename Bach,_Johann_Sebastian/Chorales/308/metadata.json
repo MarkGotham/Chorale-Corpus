@@ -2,9 +2,10 @@
     "text": "Ach Gott, wie manches Herzeleid",
     "tune": "Herr Jesu Christ, meins Lebens Licht (melody #2)",
     "Zahn": "533a",
-    "BWV": "(3.6)",
+    "BWV": "3.6",
+    "music21": "bwv3.6.mxl",
     "CPE": 307,
     "Riemenschneider": 308,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv(3.6).mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor308.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv3.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor308.krn"
 }

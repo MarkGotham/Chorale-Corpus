@@ -3,8 +3,9 @@
     "tune": "Das walt Gott Vater und Gott",
     "Zahn": "673",
     "BWV": "290",
+    "music21": "bwv290.mxl",
     "CPE": 224,
     "Riemenschneider": 224,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv290.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor224.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv290.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor224.krn"
 }

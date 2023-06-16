@@ -3,8 +3,9 @@
     "tune": "Ist Gott mein Schild und Helfersmann",
     "Zahn": "2542",
     "BWV": "85.6",
+    "music21": "bwv85.6.mxl",
     "CPE": 122,
     "Riemenschneider": 122,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv85.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor122.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv85.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor122.krn"
 }

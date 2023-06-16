@@ -3,8 +3,9 @@
     "tune": "Hast du denn, Jesu, dein Angesicht g\u00e4nzlich verborgen",
     "Zahn": "1912a",
     "BWV": "57.8",
+    "music21": "bwv57.8.mxl",
     "CPE": 90,
     "Riemenschneider": 90,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv57.8.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor090.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv57.8.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor090.krn"
 }

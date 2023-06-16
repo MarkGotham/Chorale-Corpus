@@ -3,8 +3,9 @@
     "tune": "Auf, auf, mein Herz, und du, mein ganzer Sinn",
     "Zahn": "824",
     "BWV": "268",
+    "music21": "bwv268.mxl",
     "CPE": 124,
     "Riemenschneider": 124,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv268.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor124.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv268.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor124.krn"
 }

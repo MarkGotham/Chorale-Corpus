@@ -3,8 +3,9 @@
     "tune": "Wenn ich in Angst und Not",
     "Zahn": "4233",
     "BWV": "427",
+    "music21": "bwv427.mxl",
     "CPE": 147,
     "Riemenschneider": 147,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv427.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor147.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv427.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor147.krn"
 }

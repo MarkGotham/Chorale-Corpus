@@ -3,8 +3,9 @@
     "tune": "Was willst du dich, o meine Seele, kr\u00e4nken",
     "Zahn": "7844",
     "BWV": "425",
+    "music21": "bwv425.mxl",
     "CPE": 241,
     "Riemenschneider": 241,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv425.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor241.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv425.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor241.krn"
 }

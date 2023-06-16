@@ -3,8 +3,9 @@
     "tune": "Du gro\u00dfer Schmerzensmann",
     "Zahn": "5159",
     "BWV": "300",
+    "music21": "bwv300.mxl",
     "CPE": 164,
     "Riemenschneider": 167,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv300.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor167.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv300.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor167.krn"
 }

@@ -3,8 +3,9 @@
     "tune": "So gibst du nun, mein Jesu, gute Nacht!",
     "Zahn": "849",
     "BWV": "412",
+    "music21": "bwv412.mxl",
     "CPE": 206,
     "Riemenschneider": 206,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv412.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor206.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv412.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor206.krn"
 }

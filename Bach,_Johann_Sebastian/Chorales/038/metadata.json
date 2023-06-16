@@ -3,8 +3,9 @@
     "tune": "Straf mich nicht in deinem Zorn",
     "Zahn": "6274a",
     "BWV": "115.6",
+    "music21": "bwv115.6.mxl",
     "CPE": 38,
     "Riemenschneider": 38,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv115.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor038.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv115.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor038.krn"
 }

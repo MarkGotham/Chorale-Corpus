@@ -3,8 +3,9 @@
     "tune": "Jesu, meine Freude",
     "Zahn": "8032",
     "BWV": "81.7",
+    "music21": "bwv81.7.mxl",
     "CPE": 323,
     "Riemenschneider": 324,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv81.7.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor324.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv81.7.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor324.krn"
 }

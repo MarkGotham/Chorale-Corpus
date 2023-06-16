@@ -3,8 +3,9 @@
     "tune": "O Gott, du frommer Gott (melody #4)",
     "Zahn": "5187",
     "BWV": "133.6",
+    "music21": "bwv133.6.mxl",
     "CPE": 61,
     "Riemenschneider": 60,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv133.6.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor060.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv133.6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor060.krn"
 }

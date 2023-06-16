@@ -3,8 +3,9 @@
     "tune": "Wenn mein St\u00fcndlein vorhanden ist",
     "Zahn": "4482ab",
     "BWV": "430",
+    "music21": "bwv430.mxl",
     "CPE": 350,
     "Riemenschneider": 351,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv430.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor351.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv430.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor351.krn"
 }

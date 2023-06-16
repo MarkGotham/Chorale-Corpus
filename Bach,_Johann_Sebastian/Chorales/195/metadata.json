@@ -2,9 +2,10 @@
     "text": "Wie sch\u00f6n leuchtet der Morgenstern (6)",
     "tune": "Wie sch\u00f6n leuchtet der Morgenstern",
     "Zahn": "8359",
-    "BWV": "(36.4)",
+    "BWV": "36.4",
+    "music21": "bwv36.4-2.mxl",
     "CPE": 195,
     "Riemenschneider": 195,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv(36.4).mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor195.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv36.4-2.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor195.krn"
 }

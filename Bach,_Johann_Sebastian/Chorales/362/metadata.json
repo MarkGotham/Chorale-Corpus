@@ -3,8 +3,9 @@
     "tune": "Nun freut euch, lieben Christen gmein (melody #2)",
     "Zahn": "4429a",
     "BWV": "248.59",
+    "music21": "bwv248.59-6.mxl",
     "CPE": 361,
     "Riemenschneider": 362,
-    "music21_score": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.59.mxl",
-    "sapp_score": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor362.krn"
+    "remote_score_music21": "https://github.com/cuthbertLab/music21/blob/master/music21/corpus/bach/bwv248.59-6.mxl",
+    "remote_score_krn": "https://github.com/craigsapp/bach-370-chorales/blob/master/kern/chor362.krn"
 }
