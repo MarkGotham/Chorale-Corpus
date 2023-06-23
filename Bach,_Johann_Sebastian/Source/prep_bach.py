@@ -38,7 +38,8 @@ class SegmentScore:
         self.no_stem_dir()
         self.renumber_and_find_break()
         self.segment_source()
-        print(f"Error getting metadata for chorales number {self.metadata_errors}")
+        if self.metadata_errors:
+            print(f"Error getting metadata for chorales number {self.metadata_errors}")
 
     def num_from_title(self):
 
@@ -134,16 +135,17 @@ class SegmentScore:
             count += 1
 
         print("*** Warnings ***")
-        print("Missing:")
-        for m in self.missing:
-            if self.missing[m]:
-                print(f"{m} in measures {self.missing[m]}")
-        print("Extra:")
-        for e in self.extra:
-            if self.extra[e]:
-                print(f"{e} in measures {self.extra[e]}")
+        if self.missing:
+            print("Missing:")
+            for m in self.missing:
+                if self.missing[m]:
+                    print(f"{m} in measures {self.missing[m]}")
+        if self.extra:
+            print("Extra:")
+            for e in self.extra:
+                if self.extra[e]:
+                    print(f"{e} in measures {self.extra[e]}")
 
-        print(len(self.start_measures), self.num_chorales)
         assert (self.num_chorales == len(self.start_measures))
 
         if previous_run and (previous_run != self.start_measures):
@@ -181,8 +183,11 @@ class SegmentScore:
         """
 
         print(f"Processing number {self.current_work_number} ...")
+        print("Before: ", self.current_work_number)
+        r_number = catalogue_working.map_to_Riemenschneider(self.current_work_number)
+        print("After: ", r_number)
 
-        out_path = THIS_FOLDER.parent / "Chorales" / str(self.current_work_number).zfill(3)
+        out_path = THIS_FOLDER.parent / "Chorales" / str(r_number).zfill(3)
 
         # TODO: Open scoring version *
         # self.current_segment_open = self.current_segment.voicesToParts()
@@ -190,14 +195,12 @@ class SegmentScore:
 
         self.part_names()
 
-        self.prep_metadata(self.current_segment)  # Metadata not kept in voicesToParts
-        # self.prep_metadata(self.current_segment_open)  # .... so runs on each TODO open *
+        self.prep_metadata(r_number)  # Metadata not kept in voicesToParts
 
         for p in self.current_segment.parts:
             re_number(p)
 
         self.current_segment.write(fmt="mxl", fp=out_path / "short_score.mxl")
-        # self.current_segment_open.write(fmt="mxl", fp=out_path / "open_score.mxl")  # TODO open *
 
         print("... done")
 
@@ -210,25 +213,21 @@ class SegmentScore:
         # for index in range(len(satb)):
         #     self.current_segment_open.parts[index].partName = satb[index]
 
-    def prep_metadata(self, score):
+    def prep_metadata(self, riemenschneider_number: int):
         """
-        Prepare the metadata: composer and "title".
-        Title begins with the deduced Riemenschneider number (1–371),
-        and BWV number.
-        In building this, the method also demonstrates how to
-        convert between these catalogue numberings with music21.
+        Prepare the metadata on the current segment:
+        composer and "title".
+        Title = the deduced Riemenschneider number (1–371) and corresponding text.
         """
 
-        score.insert(0, metadata.Metadata())
-        score.metadata.composer = "J. S. Bach"
+        self.current_segment.insert(0, metadata.Metadata())
 
-        self.metadata_errors = []
+        self.current_segment.metadata.composer = "J. S. Bach"
 
-        catalogue_title = catalogue_working.score_titles[self.current_work_number]
+        catalogue_title = catalogue_working.catalogue[riemenschneider_number - 1][1]
+        title = f"Chorale {riemenschneider_number}:\n{catalogue_title}"
 
-        title = f"Chorale {self.current_work_number}:\n{catalogue_title}"
-
-        score.metadata.title = title
+        self.current_segment.metadata.title = title
 
 
 def re_number(this_part: stream.Part):
