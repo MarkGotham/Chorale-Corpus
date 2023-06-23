@@ -1299,6 +1299,54 @@ analysis_titles = [
 ]
 
 
+def map_to_Riemenschneider(our_int):
+    """
+    Some of the numbering in this collection match is Riemenschneider, but not all.
+    This function maps those mismatches
+    """
+    here_there_map = {
+        7: 6,
+        6: 7,
+        35: 33,
+        33: 34,
+        34: 35,
+        46: 45,
+        45: 46,
+        53: 51,
+        51: 52,
+        52: 53,
+        57: 55,
+        55: 56,
+        60: 57,
+        56: 58,
+        58: 59,
+        61: 60,
+        59: 61,
+        66: 62,
+        62: 63,
+        63: 64,
+        64: 65,
+        65: 66,
+        87: 80,
+        80: 81,
+        81: 82,
+        82: 83,
+        83: 84,
+        84: 85,
+        85: 86,
+        86: 87,
+        137: 134,
+        134: 135,
+        135: 137,
+        167: 164,
+        164: 167
+    }
+    if our_int in here_there_map:
+        return here_there_map[our_int]
+    else:
+        return our_int
+
+
 def levenshtein_distance(s, t):
     """
     Calculate Levenshtein distance for two strings.
