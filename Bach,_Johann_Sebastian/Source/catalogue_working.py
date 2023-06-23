@@ -53,7 +53,7 @@ catalogue = [
     ['Valet will ich dir geben', 'Valet will ich dir geben', '5404a', '415', 'bwv415.mxl', 24, 24],
     ['Auf meinen lieben Gott (5?)', 'Wo soll ich fliehen hin', '2164', '148.6', 'bwv148.6.mxl', 25, 25],
     ['O Ewigkeit, du Donnerwort (11)', 'O Ewigkeit, du Donnerwort',
-     '5820', '20.7=20.11', 'bwv20.11.mxl', 26, 26],  # NB: music21 has both, 20.11 includes the text.
+     '5820', '20.7=20.11', ('bwv20.11.mxl', 'bwv20.7.mxl'), 26, 26],
     ['Es spricht der Unweisen Mund wohl', 'Es spricht der Unweisen Mund wohl', '4436', '308', 'bwv308.mxl', 27, 27],
     ['Nun komm, der Heiden Heiland (8)', 'Nun komm, der Heiden Heiland',
      '1174', '36.8', 'bwv36.8-2.mxl', 28, 28],
@@ -83,7 +83,7 @@ catalogue = [
     ['Gott Vater, sende deinen Geist (10)', 'Kommt her zu mir, spricht Gottes Sohn',
      '2496c', '108.6', 'bwv108.6.mxl', 46, 45],
     ['Vom Himmel hoch da komm ich her (13)', 'Vom Himmel hoch da komm ich her',
-     '346', '248.09', 'bwv248.9-s.mxl', 45, 46],  # Also 'bwv248.9-1.mxl' including instruments
+     '346', '248.09', ('bwv248.9-s.mxl', 'bwv248.9-i.mxl'), 45, 46],  # Also 'bwv248.9-i.mxl' including instruments
     ['Vater unser im Himmelreich', 'Vater unser im Himmelreich', '3561', '416', 'bwv416.mxl', 47, 47],
     ['Ach wie flüchtig, ach wie nichtig (8)', 'Ach wie flüchtig, ach wie nichtig', '1887', '26.6', 'bwv26.6.mxl', 48,
      48],
@@ -163,7 +163,7 @@ catalogue = [
     ['Helft mir Gotts Güte preisen (6)', 'Helft mir Gotts Güte preisen',
      '5267', '16.6', 'bwv16.6.mxl', 99, 99],
     ['Durch Adams Fall ist ganz verderbt (8)', 'Durch Adams Fall ist ganz verderbt',
-     '7549', '18.5', 'bwv18.5-w.mxl', 100, 100],  # -lz in d minor; -w in c minor
+     '7549', '18.5', ('bwv18.5-w.mxl', 'bwv18.5-lz.mxl'), 100, 100],  # -lz in d minor; -w in c minor
     ['Herr Christ, der einge Gottessohn (5)', 'Herr Christ, der einge Gottessohn',
      '4297a', '164.6', 'bwv164.6.mxl', 101, 101],
     ['Du Lebensfürst, Herr Jesu Christ (1, 13)', 'Ermuntre dich, mein schwacher Geist',
@@ -205,7 +205,7 @@ catalogue = [
     ['Der Herr ist mein getreuer Hirt (1)', 'Allein Gott in der Höh sei Ehr', '4457',
      '104.6', 'bwv104.6.mxl', 125, 125],
     ['Durch Adams Fall ist ganz verderbt (8)', 'Durch Adams Fall ist ganz verderbt',
-     '7549', '18.5', 'bwv18.5-lz.mxl', 126, 126],  # -lz in d minor; -w in c minor
+     '7549', '18.5', ('bwv18.5-lz.mxl', 'bwv18.5-w.mxl'), 126, 126],  # -lz in d minor; -w in c minor
     ['Dies sind die heilgen zehn Gebot', 'In Gottes Namen fahren wir', '1951', '298', 'bwv298.mxl', 127, 127],
     ['Alles ist an Gottes Segen', 'Alles ist an Gottes Segen', '3838ff', '263', 'bwv263.mxl', 128, 128],
     ['Keinen hat Gott verlassen', 'Keinen hat Gott verlassen', '5394', '369', 'bwv369.mxl', 129, 129],
@@ -383,7 +383,8 @@ catalogue = [
     ['Christ lag in Todesbanden', 'Christ lag in Todesbanden', '7012a', '279', 'bwv279.mxl', 261, 261],
     ['Ach Gott, vom Himmel sieh darein (6)', 'Ach Gott, vom Himmel sieh darein', '4431', '2.6', 'bwv2.6.mxl', 262, 262],
     ['Jesu, meine Freude (1,6)', 'Jesu, meine Freude',
-     '8032', '227.1=227.11', 'bwv227.11.mxl', 263, 263],  # m21 also has bwv227.1, but .11 has the words
+     '8032', '227.1=227.11', ('bwv227.11.mxl', 'bwv227.1.mxl'), 263, 263],
+    # m21 also has bwv227.1, but .11 has the words
     ['Jesu, meines Herzens Freud', 'Jesu, meines Herzens Freud', '4797, 4798d', '361', 'bwv361.mxl', 264, 264],
     ['Was mein will, das gscheh allzeit (1)', 'Was mein Gott will, das gscheh allzeit', '7568', '144.6', 'bwv144.6.mxl',
      265, 265],
@@ -496,7 +497,8 @@ catalogue = [
     ['Du Du Lebensfürst, Herr Jesu Christ (4)', 'Ermuntre dich, mein schwacher Geist', '5741', '11.6', 'bwv11.6.mxl',
      342, 343],
     ['Wir singen dir, Immanuel (2)', 'Vom Himmel hoch, da komm ich her',
-     '346', '248.23', 'bwv248.23-s.mxl', 343, 344],  # m21 also has 'bwv248.23-2.mxl' with instruments
+     '346', '248.23', ('bwv248.23-s.mxl', 'bwv248.23-2.mxl'), 343, 344],
+    # m21 also has 'bwv248.23-2.mxl' with instruments
     ['Wie soll ich dich empfangen (1)', 'Befiehl du deine Wege (melody #1)',
      '5385a', '248.05', 'bwv248.5.mxl', 344, 345],
     ['Meines Lebens letzte Zeit', 'Meines Lebens letzte Zeit', '6380', '381', 'bwv381.mxl', 345, 346],
@@ -517,7 +519,8 @@ catalogue = [
      None, '10.7', 'bwv10.7.mxl', 357, 358],
     ['Allein zu dir, Herr Jesu Christ', 'Allein zu dir, Herr Jesu Christ', '7292b', '261', 'bwv261.mxl', 358, 359],
     ['Lasst Furcht und Pein (4)', 'Wir Christenleut habn jetzund Freud',
-     '2072', '248.35', 'bwv248.35-3.mxl', 359, 360],  # m21 also has 'bwv248.35-3c.mxl': w/out words, w continuo.
+     '2072', '248.35', ('bwv248.35-3.mxl', 'bwv248.35-3c.mxl'), 359, 360],
+    # m21 also has 'bwv248.35-3c.mxl': w/out words, w continuo.
     ['Ermuntre dich, mein schwacher Geist (9)', 'Ermuntre dich, mein schwacher Geist',
      '5741', '248.12', 'bwv248.12-2.mxl', 360, 361],
     ['Ich steh an deiner Krippen hier (1)', 'Nun freut euch, lieben Christen gmein (melody #2)',
@@ -528,7 +531,8 @@ catalogue = [
     ['O Welt, sieh hier dein Leben', 'O Welt, ich muss dich lassen', '2293b', '394', 'bwv394.mxl', 365, 366],
     ['Befiehl du deine Wege', 'Befiehl du deine Wege (melody #1)', '5385a', '271', 'bwv271.mxl', 366, 367],
     ['Hilf, Herr Jesu, lass gelingen (15)', 'Hilf, Herr Jesu, lass gelingen (melody #2)',
-     None, '248.42', 'bwv248.42-s.mxl', 367, 368],  # m21 also has 'bwv248.42-4.mxl' with instruments
+     None, '248.42', ('bwv248.42-s.mxl', 'bwv248.42-4.mxl'), 367, 368],
+    # m21 also has 'bwv248.42-4.mxl' with instruments
     ['Jesu, der du meine Seele', 'Jesu, der du meine Seele', '6804', '354', 'bwv354.mxl', 368, 369],
     ['Gott Vater, sende deinen Geist (2)', 'Kommt her zu mir, spricht Gottes Sohn',
      '2496c', '74.8', 'bwv74.8.mxl', 369, 370],
@@ -1457,7 +1461,8 @@ def compare_titles_with_catalogue(titles: List[str],
             text_title = catalogue_convert(i, in_cat=in_cat, out_cat="text")
             text_d = flexible_levenshtein_distance(title, text_title)
             if text_d > threshold:
-                print(f"{i} {title!r} does not match with tune title {tune_title!r} ({tune_d}) nor with text title {text_title!r} ({text_d}).")
+                print(
+                    f"{i} {title!r} does not match with tune title {tune_title!r} ({tune_d}) nor with text title {text_title!r} ({text_d}).")
                 errors += 1
             else:
                 print(i, "text")
