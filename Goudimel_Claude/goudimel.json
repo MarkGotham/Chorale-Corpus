@@ -229,7 +229,7 @@
         "psalm_number": 98,
         "mod_trans": -5,
         "tenor": "tinyNotation: 2/2 c1 A2 G c c d f e1 d r g e2 e c f e1 d c r c A2 G c c d f e1 d r g f2 e d c c B c1 r g g2 f e1 d c2 B A1 G r G c2 c B A c1 d e r c c2 d e c f f e1 d0 r2 g1 f2 e d c c B c1 ",
-        "superius": "tinyNotation: 2/2 g1 f2 e a a b d'1 c#'2 d'1 r e' c'2 c' a d'1 c' b2 c'1 r g f2 e a a b d' c'1 a r c' a2 g g e g g g1 r c' c'2 c' c'1 b2 a1 g f#2 g1 r e g2 g g f e1 g g r g a2 b c' a d' c' c'1 b0 r2 c'1 a2 g g e g g g1 ",
+        "superius": "tinyNotation: 2/2 g1 f2 e a a b d'1 c'#2 d'1 r e' c'2 c' a d'1 c' b2 c'1 r g f2 e a a b d' c'1 a r c' a2 g g e g g g1 r c' c'2 c' c'1 b2 a1 g f#2 g1 r e g2 g g f e1 g g r g a2 b c' a d' c' c'1 b0 r2 c'1 a2 g g e g g g1 ",
         "contra": "tinyNotation: 2/2 e1 d2 B A e g a a1 a r c' g2 g f a g1 g e r e d2 B A e g a a1 f# r e c2 c B c d d e1 r e e2 a g1 g2 f1 d2 d1 d r c e2 e d d1 c B2 c1 r e e2 g g f a a g1 g0 r2 e1 c2 c B c d d e1 ",
         "bassus": "tinyNotation: 2/2 C1 D2 E F A G D A1 D r C C2 C F D E1 G C r C D2 E F A G D A1 D r C F2 C G A G G C1 r c c2 F c1 G2 D F G D1 G r C C2 C G D A1 G C r c A2 G c F D F C1 G0 r2 C1 F2 C G A G G C1 "
     },
@@ -823,7 +823,7 @@
         "psalm_number": 79,
         "mod_trans": -5,
         "tenor": "tinyNotation: 2/2 G1 c d e e e2 e d f e1 d r G c2 d e1 f e2 d e f g1 e2 e d d c1 c c2 B c B A1 G r c c2 B c1 G A2 c d e d1 c r G c2 B c1 d e r G c2 B c1 d e r e e2 e d f e1 d r g f2 e d1 f e r e d2 c B A G1 r G A2 c d e d1 c ",
-        "superius": "tinyNotation: 2/2 g1 a a c' c' c'2 c' b d' c#'1 d' r d a2 a c'1 c' c'2 b c' c' b1 g2 c' c' b c'1 g g2 g a g1 f#2 g1 r g a2 g g1 e f2 e g g g1 g r g g2 g e1 g g r g g2 g e1 g g r c' c'2 c' b c' c'1 b r c' c'2 c' b1 a g r c' b2 a g f e1 r c c2 g g g g1 g ",
+        "superius": "tinyNotation: 2/2 g1 a a c' c' c'2 c' b d' c'#1 d' r d a2 a c'1 c' c'2 b c' c' b1 g2 c' c' b c'1 g g2 g a g1 f#2 g1 r g a2 g g1 e f2 e g g g1 g r g g2 g e1 g g r g g2 g e1 g g r c' c'2 c' b c' c'1 b r c' c'2 c' b1 a g r c' b2 a g f e1 r c c2 g g g g1 g ",
         "contra": "tinyNotation: 2/2 d1 f f g g g2 g g a a1 f# r B f2 f g1 a g2 g g c d1 c2 g g g e1 e e2 d f d d1 d r e f2 d e1 c c2 A B c1 B2 c1 r c e2 d1 c B2 c1 r c e2 d1 c B2 c1 r g a2 g g a g1 g r e a2 g g1 c c r g g2 e e c c1 r e f2 e d c1 B2 c1 ",
         "bassus": "tinyNotation: 2/2 G1 F D C C C2 C G D A1 D r G F2 D C1 F C2 G c A G1 C2 C G G C1 C C2 G F G D1 G r C F2 G C1 C F2 A G C G1 C r C C2 G A1 G C r C C2 G A1 G C r c A2 c G F c1 G r C F2 C G1 F C r C G2 A E F C1 r C F2 C G C G1 C "
     },
@@ -1279,7 +1279,7 @@
         "psalm_number": 60,
         "mod_trans": -5,
         "tenor": "tinyNotation: 2/2 c1 f2 f e d1 c B2 c1 r c c2 f e d e1 f g r e g2 g f e d1 c B r G A2 B c d1 c B2 c1 r e e2 d c1 f e2 d e1 r e e2 d c1 f e2 d e1 r e g2 f e1 d c2 B A1 G r c d2 e c1 f e2 e d1 c ",
-        "superius": "tinyNotation: 2/2 f1 a2 a g g e1 g g r g a2 c' c' d'1 c#'2 d'1 e' r c' c'2 b a c' b1 g g r g f#2 g a a a1 g g r c' c'2 b a1 a g2 a g#1 r c' c'2 b a1 a g2 a g#1 r c' b2 a c'1 b2 a1 g f#2 g1 r a a2 c' a1 d' b2 c'1 b2 c'1 ",
+        "superius": "tinyNotation: 2/2 f1 a2 a g g e1 g g r g a2 c' c' d'1 c'#2 d'1 e' r c' c'2 b a c' b1 g g r g f#2 g a a a1 g g r c' c'2 b a1 a g2 a g#1 r c' c'2 b a1 a g2 a g#1 r c' b2 a c'1 b2 a1 g f#2 g1 r a a2 c' a1 d' b2 c'1 b2 c'1 ",
         "contra": "tinyNotation: 2/2 A1 d2 c c B c1 d e r e e2 a a f a1 a c' r g e2 e c g g1 e d r d d2 d f f f1 d e r g g2 g e1 A c2 A B1 r g g2 g e1 A c2 A B1 r g e2 c g1 f f2 d d1 d r f f2 g f1 a g2 g g1 g ",
         "bassus": "tinyNotation: 2/2 F1 D2 F C G A1 G C r c A2 F A B- A1 d c r C C2 E F C G1 C G r G D2 G F D F1 G C r c c2 G A1 F C2 F E1 r c c2 G A1 F C2 F E1 r C E2 F C1 D F2 G D1 G r F D2 C F1 D E2 C G1 C "
     },
@@ -1693,7 +1693,7 @@
         "psalm_number": 118,
         "mod_trans": -5,
         "tenor": "tinyNotation: 2/2 c1 A2 G c c d f e1 d r g e2 e c f e1 d c r c A2 G c c d f e1 d r g f2 e d c c B c1 r g g2 f e1 d c2 B A1 G r G c2 c B A c1 d e r c c2 d e c f f e1 d r g f2 e d c c B c1 ",
-        "superius": "tinyNotation: 2/2 g1 f2 e a a b d'1 c#'2 d'1 r e' c'2 c' a d'1 c' b2 c'1 r g f2 e a a b d' c'1 a r c' a2 g g e g g g1 r c' c'2 c' c'1 b2 a1 g f#2 g1 r e g2 g g f e1 g g r g a2 b c' a d' c' c'1 b r c' a2 g g e g g g1 ",
+        "superius": "tinyNotation: 2/2 g1 f2 e a a b d'1 c'#2 d'1 r e' c'2 c' a d'1 c' b2 c'1 r g f2 e a a b d' c'1 a r c' a2 g g e g g g1 r c' c'2 c' c'1 b2 a1 g f#2 g1 r e g2 g g f e1 g g r g a2 b c' a d' c' c'1 b r c' a2 g g e g g g1 ",
         "contra": "tinyNotation: 2/2 e1 d2 B A e g a a1 a r c' g2 g f a g1 g e r e d2 B A e g a a1 f# r e c2 c B c d d e1 r e e2 a g1 g2 f1 d2 d1 d r c e2 e d d1 c B2 c1 r e e2 g g f a a g1 g r e c2 c B c d d e1 ",
         "bassus": "tinyNotation: 2/2 C1 D2 E F A G D A1 D r C C2 C F D E1 G C r C D2 E F A G D A1 D r C F2 C G A G G C1 r c c2 F c1 G2 D F G D1 G r C C2 C G D A1 G C r c A2 G c F D F C1 G r C F2 C G A G G C1 "
     },
