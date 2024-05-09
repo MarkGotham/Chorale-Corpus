@@ -1,5 +1,10 @@
 .*
 
+analysis.txt
+bwv*.mxl
+*_measure_map.json
+*other_modifications.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
