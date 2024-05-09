@@ -3,7 +3,7 @@
 This is a Corpus of Chorale Collections, from teh sixteenth to eighteenth century
 and including but extending far beyond those of J. S. Bach:
 1. [371 Bach chorales](./Bach,_Johann_Sebastian/Chorales)
-2. The [Geneva Psalter with harmonisations by Claude Goudimel](./Goudimel_C/Pseaumes/)
+2. The [Geneva Psalter with harmonisations by Claude Goudimel](./Goudimel_Claude/Pseaumes/)
 3. More to follow soon ... 
 
 We provide
