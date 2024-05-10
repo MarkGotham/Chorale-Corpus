@@ -15,7 +15,7 @@
         "title": "Ainsi qu'on oit le cerf",
         "orig_bass": "C4",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "G2",
             "C2",
@@ -69,7 +69,7 @@
         "title": "A toy, mon Dieu, mon coeur",
         "orig_bass": "F2",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "C1",
             "C3",
@@ -87,7 +87,7 @@
         "title": "A toy, \u00f4 Dieu, qui est l\u00e0-haut",
         "orig_bass": "F2",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "C1",
             "C3",
@@ -141,7 +141,7 @@
         "title": "Bienheureuse est la personne",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "C1",
             "C3",
@@ -219,7 +219,7 @@
         "title": "Chantez \u00e0 Dieu nouveau cantique",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -237,7 +237,7 @@
         "title": "Chante de Dieu le renom",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -255,7 +255,7 @@
         "title": "Chantez gayement",
         "orig_bass": "G2",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "C1",
             "C3",
@@ -273,7 +273,7 @@
         "title": "Deba contre mes debateurs",
         "orig_bass": "F2",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "C1",
             "C3",
@@ -375,7 +375,7 @@
         "title": "Di-moy, malheureux, qui te",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -453,7 +453,7 @@
         "title": "Du malin le meschant vouloir",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -483,7 +483,7 @@
         "title": "Du Seigneur les bontez, sans fin",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -585,7 +585,7 @@
         "title": "Il faut que de tous mes esprits",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -603,7 +603,7 @@
         "title": "Incontinent que j'eu ouy",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -813,7 +813,7 @@
         "title": "Les gens entrez sont en ton",
         "orig_bass": "G3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -831,7 +831,7 @@
         "title": "L'Eternel est regnant",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -921,7 +921,7 @@
         "title": "Misericorde \u00e0 moy povre afflig\u00e9",
         "orig_bass": "F2",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "C1",
             "C3",
@@ -963,7 +963,7 @@
         "title": "Mon coeur est dispos, \u00f4 mon Dieu",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C3",
@@ -1101,7 +1101,7 @@
         "title": "O bien-heureux celui dont",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1131,7 +1131,7 @@
         "title": "O combien est plaisant et",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1149,7 +1149,7 @@
         "title": "O Dieu des armees, combien",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "C1",
             "C3",
@@ -1167,7 +1167,7 @@
         "title": "O Dieu, donne-moy delivrance",
         "orig_bass": "C4",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -1269,7 +1269,7 @@
         "title": "O Dieu, qui nous as deboutez",
         "orig_bass": "F3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -1287,7 +1287,7 @@
         "title": "O Dieu tout-puissant, sauve-moy",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "C1",
             "C3",
@@ -1329,7 +1329,7 @@
         "title": "On a beau sa maison bastir",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "C1",
             "C3",
@@ -1395,7 +1395,7 @@
         "title": "Or est maintenant",
         "orig_bass": "F2",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "C1",
             "C3",
@@ -1425,7 +1425,7 @@
         "title": "Or peut bien dire Israel",
         "orig_bass": "C4",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "G2",
             "C2",
@@ -1443,7 +1443,7 @@
         "title": "Or soit lou\u00e9 l'Eternel",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1461,7 +1461,7 @@
         "title": "Or sus, louez Dieu tout le monde",
         "orig_bass": "C2",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -1491,7 +1491,7 @@
         "title": "Or sus, tous humains",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1521,7 +1521,7 @@
         "title": "O Seigneur, lou\u00e9 sera",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": -1,
         "clefs": [
             "G2",
             "C2",
@@ -1539,7 +1539,7 @@
         "title": "O Seigneur, que de gens",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "C1",
             "C3",
@@ -1557,7 +1557,7 @@
         "title": "Peuples, oyez, et l'aureille",
         "orig_bass": "C4",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -1623,7 +1623,7 @@
         "title": "Que Dieu se monstre seulement",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1641,7 +1641,7 @@
         "title": "Qui au conseil des malins",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C3",
@@ -1683,7 +1683,7 @@
         "title": "Rendez \u00e0 Dieu louange et gloire",
         "orig_bass": "C3",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "G2",
             "C2",
@@ -1713,7 +1713,7 @@
         "title": "Revenge-moy, pren la querele",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "C1",
             "C3",
@@ -1791,7 +1791,7 @@
         "title": "Seigneur, le Roy s'esjouira",
         "orig_bass": "G2",
         "orig_key": null,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "C1",
             "C3",
@@ -1821,7 +1821,7 @@
         "title": "Si est-ce que Dieu est tresdoux",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -1899,7 +1899,7 @@
         "title": "Sus, qu'un chacun de nous",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
@@ -2001,7 +2001,7 @@
         "title": "Vouloir m'est pris de mettre en",
         "orig_bass": "C3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 1,
         "clefs": [
             "C1",
             "C3",
@@ -2031,7 +2031,7 @@
         "title": "Vous tous, Princes et Seigneurs",
         "orig_bass": "F3",
         "orig_key": true,
-        "mod_sharps": 0,
+        "mod_sharps": 2,
         "clefs": [
             "G2",
             "C2",
