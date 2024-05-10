@@ -93,3 +93,39 @@ The original is almost entirely expressed in the json, with the exception of ele
 - tenor cantus firmus moved to the top 
 - halved note values
 - transposed to keys match up with the harmonic analyses on [When in Rome](https://github.com/MarkGotham/When-in-Rome/tree/master/Corpus/Early_Choral/Goudimel%2C_Claude/Psalmes)
+
+
+## Scripts
+
+The code here serves to:
+- `write_from_tiny`: render scores in self-explanatory ways.
+- `corpus_conversion`: use musescore to convert between any supported formats
+- `clef_tree`: produce a summary of clefs used and their counts as below
+
+```
+.
+├── superius:C1
+│   ├── contra:C2 = C1,C2
+│   │   ├── tenor:C3 = C1,C2,C3
+│   │   │   └── bassus:F3 = C1,C2,C3,F3 = 1
+│   │   └── tenor:C4 = C1,C2,C4
+│   │       └── bassus:F3 = C1,C2,C4,F3 = 1
+│   └── contra:C3 = C1,C3
+│       └── tenor:C4 = C1,C3,C4
+│           ├── bassus:C4 = C1,C3,C4,C4 = 1
+│           ├── bassus:F3 = C1,C3,C4,F3 = 1
+│           └── bassus:F4 = C1,C3,C4,F4 = 88
+└── superius:G2
+    ├── contra:C2 = G2,C2
+    │   ├── tenor:C3 = G2,C2,C3
+    │   │   ├── bassus:C4 = G2,C2,C3,C4 = 14
+    │   │   ├── bassus:F3 = G2,C2,C3,F3 = 41
+    │   │   └── bassus:F4 = G2,C2,C3,F4 = 1
+    │   └── tenor:C4 = G2,C2,C4
+    │       └── bassus:F3 = G2,C2,C4,F3 = 1
+    └── contra:C3 = G2,C3
+        ├── tenor:C3 = G2,C3,C3
+        │   └── bassus:F3 = G2,C3,C3,F3 = 2
+        └── tenor:C4 = G2,C3,C4
+            └── bassus:F4 = G2,C3,C4,F4 = 1
+```
