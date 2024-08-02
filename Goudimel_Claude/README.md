@@ -100,7 +100,14 @@ The original is almost entirely expressed in the json, with the exception of ele
 The code here serves to:
 - `write_from_tiny`: render scores in self-explanatory ways.
 - `corpus_conversion`: use musescore to convert between any supported formats
-- `clef_tree`: produce a summary of clefs used and their counts as below
+- `clef_tree`: produce a summary of clefs used and their counts as below.
+
+
+## Clefs
+
+This shows the:
+- choice of two clefs per part for S, C, and T, and 3 for B.
+- Very uneven use of these combinations, for instance with C1,C3,C4,F4 used 88 time as compared with C1,C3,C4,F3 just once.
 
 ```
 .
