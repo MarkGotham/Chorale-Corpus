@@ -12,7 +12,10 @@ Long live open source collaboration!
 ## This `Chorale-Corpus` repo (archive)
 
 This repo was a starting point for two chorale collections
-1. [371 Bach chorales](./Bach,_Johann_Sebastian/Chorales)
-2. The [Geneva Psalter with harmonisations by Claude Goudimel](./Goudimel_Claude/Pseaumes/)
+1. [Bach chorales](./Bach,_Johann_Sebastian/Chorales)
+2. [Goudimel](./Goudimel_Claude/Pseaumes/)
 
 As I say, head over to the org for the latest.
+The corresponding links are:
+1. [Bach](https://github.com/Chorale-Corpus/Bach_JS)
+2. [Goudimel](https://github.com/Chorale-Corpus/Goudimel_C)
