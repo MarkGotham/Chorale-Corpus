@@ -9,7 +9,7 @@ alongside many other corpora.
 Long live open source collaboration!
 
 
-# This Chorale-Corpus repo
+## This `Chorale-Corpus` repo (archive)
 
 This repo was a starting point for two chorale collections
 1. [371 Bach chorales](./Bach,_Johann_Sebastian/Chorales)
